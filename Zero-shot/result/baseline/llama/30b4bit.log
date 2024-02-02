@@ -1,0 +1,70 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 31422611456 bytes
+Free Memory: 212853194752 bytes
+Memory Usage: 22.0%
+Selected Tasks: ['winogrande', 'arc_challenge']
+LLaMA vocab size:  32000
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 33625604096 bytes
+Free Memory: 210325012480 bytes
+Memory Usage: 22.9%
+Loading /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-30b checkpoint /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/llama/30b4bit.pth ....
+Done.
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.2%
+Total Memory: 272808017920 bytes
+Used Memory: 116745175040 bytes
+Free Memory: 127212126208 bytes
+Memory Usage: 53.4%
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 116761690112 bytes
+Free Memory: 127195611136 bytes
+Memory Usage: 53.4%
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 116761690112 bytes
+Free Memory: 127195611136 bytes
+Memory Usage: 53.4%
+{
+  "results": {
+    "winogrande": {
+      "acc": 0.7308602999210734,
+      "acc_stderr": 0.012464911951268738
+    },
+    "arc_challenge": {
+      "acc": 0.439419795221843,
+      "acc_stderr": 0.014503747823580125,
+      "acc_norm": 0.43686006825938567,
+      "acc_norm_stderr": 0.014494421584256527
+    }
+  },
+  "versions": {
+    "winogrande": 0,
+    "arc_challenge": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-30b/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/llama/30b4bit.pth",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 404.97513246536255
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/llama/30b4bit.pth batch_size: 8
+|    Task     |Version| Metric |  Value   |   |  Stderr  |
+|-------------|------:|--------|---------:|---|---------:|
+|winogrande   |      0|acc     |0.73086030|±  |0.01246491|
+|arc_challenge|      0|acc     |0.43941980|±  |0.01450375|
+|             |       |acc_norm|0.43686007|±  |0.01449442|
+

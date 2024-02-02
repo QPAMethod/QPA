@@ -1,0 +1,1309 @@
+CUDA extension not installed.
+Starting ...
+Ready.
+0 self_attn.k_proj
+Quantizing ...
+time 5.46
+error 41486.9296875
+0 self_attn.v_proj
+Quantizing ...
+time 2.60
+error 34548.0859375
+0 self_attn.q_proj
+Quantizing ...
+time 2.58
+error 51394.74609375
+0 self_attn.out_proj
+Quantizing ...
+time 2.52
+error 77.52619934082031
+0 fc1
+Quantizing ...
+time 2.78
+error 13327.5546875
+0 fc2
+Quantizing ...
+time 15.47
+error 81.39437866210938
+1 self_attn.k_proj
+Quantizing ...
+time 2.86
+error 3328.51123046875
+1 self_attn.v_proj
+Quantizing ...
+time 2.56
+error 1782.64990234375
+1 self_attn.q_proj
+Quantizing ...
+time 2.61
+error 4400.8193359375
+1 self_attn.out_proj
+Quantizing ...
+time 2.61
+error 115.09832000732422
+1 fc1
+Quantizing ...
+time 2.76
+error 13325.23046875
+1 fc2
+Quantizing ...
+time 15.53
+error 46.462554931640625
+2 self_attn.k_proj
+Quantizing ...
+time 2.89
+error 3056.90576171875
+2 self_attn.v_proj
+Quantizing ...
+time 2.64
+error 1776.9964599609375
+2 self_attn.q_proj
+Quantizing ...
+time 2.63
+error 2960.94287109375
+2 self_attn.out_proj
+Quantizing ...
+time 2.62
+error 0.7751911878585815
+2 fc1
+Quantizing ...
+time 2.78
+error 13533.419921875
+2 fc2
+Quantizing ...
+time 15.54
+error 45.529930114746094
+3 self_attn.k_proj
+Quantizing ...
+time 2.89
+error 2532.20703125
+3 self_attn.v_proj
+Quantizing ...
+time 2.61
+error 1677.4063720703125
+3 self_attn.q_proj
+Quantizing ...
+time 2.56
+error 2687.63330078125
+3 self_attn.out_proj
+Quantizing ...
+time 2.63
+error 0.5619436502456665
+3 fc1
+Quantizing ...
+time 2.74
+error 13674.8291015625
+3 fc2
+Quantizing ...
+time 15.55
+error 47.49644470214844
+4 self_attn.k_proj
+Quantizing ...
+time 2.84
+error 2286.3212890625
+4 self_attn.v_proj
+Quantizing ...
+time 2.62
+error 1756.5982666015625
+4 self_attn.q_proj
+Quantizing ...
+time 2.64
+error 2567.474609375
+4 self_attn.out_proj
+Quantizing ...
+time 2.64
+error 0.44221970438957214
+4 fc1
+Quantizing ...
+time 2.79
+error 14033.7158203125
+4 fc2
+Quantizing ...
+time 15.53
+error 51.19672775268555
+5 self_attn.k_proj
+Quantizing ...
+time 2.90
+error 2594.986328125
+5 self_attn.v_proj
+Quantizing ...
+time 2.64
+error 1884.90185546875
+5 self_attn.q_proj
+Quantizing ...
+time 2.64
+error 2810.975341796875
+5 self_attn.out_proj
+Quantizing ...
+time 2.60
+error 0.6377646327018738
+5 fc1
+Quantizing ...
+time 2.78
+error 14612.265625
+5 fc2
+Quantizing ...
+time 15.57
+error 103.25389099121094
+6 self_attn.k_proj
+Quantizing ...
+time 2.87
+error 2450.08984375
+6 self_attn.v_proj
+Quantizing ...
+time 2.57
+error 2019.5107421875
+6 self_attn.q_proj
+Quantizing ...
+time 2.61
+error 2758.83935546875
+6 self_attn.out_proj
+Quantizing ...
+time 2.62
+error 0.5624819993972778
+6 fc1
+Quantizing ...
+time 2.74
+error 15429.431640625
+6 fc2
+Quantizing ...
+time 15.55
+error 96.43540954589844
+7 self_attn.k_proj
+Quantizing ...
+time 2.88
+error 3059.01171875
+7 self_attn.v_proj
+Quantizing ...
+time 2.52
+error 2250.73046875
+7 self_attn.q_proj
+Quantizing ...
+time 2.61
+error 3256.082763671875
+7 self_attn.out_proj
+Quantizing ...
+time 2.58
+error 1.148073434829712
+7 fc1
+Quantizing ...
+time 2.79
+error 16396.0078125
+7 fc2
+Quantizing ...
+time 15.53
+error 98.55143737792969
+8 self_attn.k_proj
+Quantizing ...
+time 2.87
+error 3369.435791015625
+8 self_attn.v_proj
+Quantizing ...
+time 2.58
+error 2520.44091796875
+8 self_attn.q_proj
+Quantizing ...
+time 2.62
+error 3607.8125
+8 self_attn.out_proj
+Quantizing ...
+time 2.57
+error 1.6992355585098267
+8 fc1
+Quantizing ...
+time 2.78
+error 17644.609375
+8 fc2
+Quantizing ...
+time 15.54
+error 99.78919219970703
+9 self_attn.k_proj
+Quantizing ...
+time 2.89
+error 3675.413330078125
+9 self_attn.v_proj
+Quantizing ...
+time 2.63
+error 2861.8544921875
+9 self_attn.q_proj
+Quantizing ...
+time 2.62
+error 4007.07373046875
+9 self_attn.out_proj
+Quantizing ...
+time 2.62
+error 2.875408172607422
+9 fc1
+Quantizing ...
+time 2.79
+error 19427.853515625
+9 fc2
+Quantizing ...
+time 15.54
+error 91.02533721923828
+10 self_attn.k_proj
+Quantizing ...
+time 2.90
+error 4720.4248046875
+10 self_attn.v_proj
+Quantizing ...
+time 2.62
+error 3240.904296875
+10 self_attn.q_proj
+Quantizing ...
+time 2.63
+error 5118.73876953125
+10 self_attn.out_proj
+Quantizing ...
+time 2.72
+error 4.029939651489258
+10 fc1
+Quantizing ...
+time 2.90
+error 21551.1015625
+10 fc2
+Quantizing ...
+time 15.67
+error 115.93046569824219
+11 self_attn.k_proj
+Quantizing ...
+time 2.88
+error 5851.73779296875
+11 self_attn.v_proj
+Quantizing ...
+time 2.61
+error 3644.56201171875
+11 self_attn.q_proj
+Quantizing ...
+time 2.61
+error 5673.40673828125
+11 self_attn.out_proj
+Quantizing ...
+time 2.55
+error 8.245795249938965
+11 fc1
+Quantizing ...
+time 2.78
+error 25144.201171875
+11 fc2
+Quantizing ...
+time 15.45
+error 134.54232788085938
+12 self_attn.k_proj
+Quantizing ...
+time 2.89
+error 7349.30615234375
+12 self_attn.v_proj
+Quantizing ...
+time 2.65
+error 4109.06884765625
+12 self_attn.q_proj
+Quantizing ...
+time 2.65
+error 7082.1962890625
+12 self_attn.out_proj
+Quantizing ...
+time 2.70
+error 15.839838981628418
+12 fc1
+Quantizing ...
+time 2.82
+error 30106.3125
+12 fc2
+Quantizing ...
+time 15.54
+error 185.53018188476562
+13 self_attn.k_proj
+Quantizing ...
+time 2.88
+error 10448.58984375
+13 self_attn.v_proj
+Quantizing ...
+time 2.59
+error 4720.98046875
+13 self_attn.q_proj
+Quantizing ...
+time 2.60
+error 7891.92333984375
+13 self_attn.out_proj
+Quantizing ...
+time 2.62
+error 24.271459579467773
+13 fc1
+Quantizing ...
+time 2.79
+error 35348.18359375
+13 fc2
+Quantizing ...
+time 15.44
+error 246.78091430664062
+14 self_attn.k_proj
+Quantizing ...
+time 2.95
+error 12704.25
+14 self_attn.v_proj
+Quantizing ...
+time 2.64
+error 5353.8212890625
+14 self_attn.q_proj
+Quantizing ...
+time 2.57
+error 8981.21875
+14 self_attn.out_proj
+Quantizing ...
+time 2.63
+error 23.016870498657227
+14 fc1
+Quantizing ...
+time 2.70
+error 40979.8671875
+14 fc2
+Quantizing ...
+time 15.53
+error 347.907470703125
+15 self_attn.k_proj
+Quantizing ...
+time 2.89
+error 22349.755859375
+15 self_attn.v_proj
+Quantizing ...
+time 2.61
+error 6236.3603515625
+15 self_attn.q_proj
+Quantizing ...
+time 2.63
+error 11452.333984375
+15 self_attn.out_proj
+Quantizing ...
+time 2.67
+error 46.65420150756836
+15 fc1
+Quantizing ...
+time 2.80
+error 48206.9609375
+15 fc2
+Quantizing ...
+time 15.58
+error 434.29974365234375
+16 self_attn.k_proj
+Quantizing ...
+time 2.92
+error 21740.0703125
+16 self_attn.v_proj
+Quantizing ...
+time 2.67
+error 6940.24169921875
+16 self_attn.q_proj
+Quantizing ...
+time 2.65
+error 11835.169921875
+16 self_attn.out_proj
+Quantizing ...
+time 2.65
+error 65.52326965332031
+16 fc1
+Quantizing ...
+time 2.79
+error 55404.40234375
+16 fc2
+Quantizing ...
+time 15.51
+error 565.670166015625
+17 self_attn.k_proj
+Quantizing ...
+time 2.88
+error 29764.7734375
+17 self_attn.v_proj
+Quantizing ...
+time 2.64
+error 7926.6572265625
+17 self_attn.q_proj
+Quantizing ...
+time 2.58
+error 13919.6875
+17 self_attn.out_proj
+Quantizing ...
+time 2.63
+error 84.06320190429688
+17 fc1
+Quantizing ...
+time 2.73
+error 62578.8203125
+17 fc2
+Quantizing ...
+time 15.60
+error 702.7411499023438
+18 self_attn.k_proj
+Quantizing ...
+time 2.90
+error 40188.640625
+18 self_attn.v_proj
+Quantizing ...
+time 2.59
+error 9253.640625
+18 self_attn.q_proj
+Quantizing ...
+time 2.72
+error 17195.47265625
+18 self_attn.out_proj
+Quantizing ...
+time 2.63
+error 131.70692443847656
+18 fc1
+Quantizing ...
+time 2.78
+error 71657.171875
+18 fc2
+Quantizing ...
+time 15.49
+error 894.0068359375
+19 self_attn.k_proj
+Quantizing ...
+time 2.92
+error 41723.375
+19 self_attn.v_proj
+Quantizing ...
+time 2.66
+error 10691.923828125
+19 self_attn.q_proj
+Quantizing ...
+time 2.61
+error 19298.994140625
+19 self_attn.out_proj
+Quantizing ...
+time 2.59
+error 196.4676055908203
+19 fc1
+Quantizing ...
+time 2.79
+error 81135.2109375
+19 fc2
+Quantizing ...
+time 15.68
+error 1075.64111328125
+20 self_attn.k_proj
+Quantizing ...
+time 2.91
+error 51646.0859375
+20 self_attn.v_proj
+Quantizing ...
+time 2.66
+error 12174.0673828125
+20 self_attn.q_proj
+Quantizing ...
+time 2.59
+error 23288.298828125
+20 self_attn.out_proj
+Quantizing ...
+time 2.59
+error 288.220703125
+20 fc1
+Quantizing ...
+time 2.81
+error 92669.6953125
+20 fc2
+Quantizing ...
+time 15.55
+error 1366.794677734375
+21 self_attn.k_proj
+Quantizing ...
+time 2.86
+error 56404.85546875
+21 self_attn.v_proj
+Quantizing ...
+time 2.63
+error 14833.943359375
+21 self_attn.q_proj
+Quantizing ...
+time 2.58
+error 28172.4296875
+21 self_attn.out_proj
+Quantizing ...
+time 2.63
+error 402.5864562988281
+21 fc1
+Quantizing ...
+time 2.79
+error 106557.578125
+21 fc2
+Quantizing ...
+time 15.49
+error 1695.063720703125
+22 self_attn.k_proj
+Quantizing ...
+time 2.92
+error 65048.296875
+22 self_attn.v_proj
+Quantizing ...
+time 2.63
+error 16893.60546875
+22 self_attn.q_proj
+Quantizing ...
+time 2.65
+error 32719.455078125
+22 self_attn.out_proj
+Quantizing ...
+time 2.64
+error 657.474853515625
+22 fc1
+Quantizing ...
+time 2.80
+error 122618.90625
+22 fc2
+Quantizing ...
+time 15.58
+error 2105.9658203125
+23 self_attn.k_proj
+Quantizing ...
+time 2.88
+error 74911.875
+23 self_attn.v_proj
+Quantizing ...
+time 2.61
+error 19787.25
+23 self_attn.q_proj
+Quantizing ...
+time 2.59
+error 37218.71875
+23 self_attn.out_proj
+Quantizing ...
+time 2.61
+error 794.6287841796875
+23 fc1
+Quantizing ...
+time 2.75
+error 139918.140625
+23 fc2
+Quantizing ...
+time 15.48
+error 2669.01416015625
+24 self_attn.k_proj
+Quantizing ...
+time 2.89
+error 78288.9453125
+24 self_attn.v_proj
+Quantizing ...
+time 2.62
+error 23283.822265625
+24 self_attn.q_proj
+Quantizing ...
+time 2.65
+error 40842.24609375
+24 self_attn.out_proj
+Quantizing ...
+time 2.66
+error 1133.749755859375
+24 fc1
+Quantizing ...
+time 2.82
+error 158052.21875
+24 fc2
+Quantizing ...
+time 15.58
+error 3615.32421875
+25 self_attn.k_proj
+Quantizing ...
+time 2.89
+error 93086.265625
+25 self_attn.v_proj
+Quantizing ...
+time 2.63
+error 26806.234375
+25 self_attn.q_proj
+Quantizing ...
+time 2.62
+error 47385.11328125
+25 self_attn.out_proj
+Quantizing ...
+time 2.62
+error 1391.869384765625
+25 fc1
+Quantizing ...
+time 2.78
+error 179151.71875
+25 fc2
+Quantizing ...
+time 15.72
+error 4965.712890625
+26 self_attn.k_proj
+Quantizing ...
+time 2.94
+error 102702.125
+26 self_attn.v_proj
+Quantizing ...
+time 2.67
+error 31113.69921875
+26 self_attn.q_proj
+Quantizing ...
+time 2.64
+error 53473.75
+26 self_attn.out_proj
+Quantizing ...
+time 2.63
+error 2024.792236328125
+26 fc1
+Quantizing ...
+time 2.77
+error 204982.34375
+26 fc2
+Quantizing ...
+time 15.47
+error 6391.56591796875
+27 self_attn.k_proj
+Quantizing ...
+time 2.92
+error 111741.4375
+27 self_attn.v_proj
+Quantizing ...
+time 2.66
+error 36656.68359375
+27 self_attn.q_proj
+Quantizing ...
+time 2.57
+error 63447.53125
+27 self_attn.out_proj
+Quantizing ...
+time 2.64
+error 2804.28955078125
+27 fc1
+Quantizing ...
+time 2.78
+error 236622.15625
+27 fc2
+Quantizing ...
+time 15.66
+error 7729.2998046875
+28 self_attn.k_proj
+Quantizing ...
+time 2.90
+error 108975.1875
+28 self_attn.v_proj
+Quantizing ...
+time 2.56
+error 43248.93359375
+28 self_attn.q_proj
+Quantizing ...
+time 2.59
+error 65017.47265625
+28 self_attn.out_proj
+Quantizing ...
+time 2.55
+error 2842.7158203125
+28 fc1
+Quantizing ...
+time 2.77
+error 271612.53125
+28 fc2
+Quantizing ...
+time 15.48
+error 9630.6806640625
+29 self_attn.k_proj
+Quantizing ...
+time 2.88
+error 123319.921875
+29 self_attn.v_proj
+Quantizing ...
+time 2.63
+error 50512.33203125
+29 self_attn.q_proj
+Quantizing ...
+time 2.62
+error 73201.546875
+29 self_attn.out_proj
+Quantizing ...
+time 2.62
+error 3595.45654296875
+29 fc1
+Quantizing ...
+time 2.77
+error 311168.5
+29 fc2
+Quantizing ...
+time 15.48
+error 11903.205078125
+30 self_attn.k_proj
+Quantizing ...
+time 2.89
+error 119703.546875
+30 self_attn.v_proj
+Quantizing ...
+time 2.64
+error 59018.0234375
+30 self_attn.q_proj
+Quantizing ...
+time 2.64
+error 80379.796875
+30 self_attn.out_proj
+Quantizing ...
+time 2.64
+error 4091.935546875
+30 fc1
+Quantizing ...
+time 2.81
+error 352029.125
+30 fc2
+Quantizing ...
+time 15.57
+error 15153.2099609375
+31 self_attn.k_proj
+Quantizing ...
+time 2.90
+error 148103.0
+31 self_attn.v_proj
+Quantizing ...
+time 2.70
+error 68367.609375
+31 self_attn.q_proj
+Quantizing ...
+time 2.61
+error 85230.96875
+31 self_attn.out_proj
+Quantizing ...
+time 2.60
+error 5654.42822265625
+31 fc1
+Quantizing ...
+time 2.73
+error 399787.5
+31 fc2
+Quantizing ...
+time 15.50
+error 18369.15234375
+32 self_attn.k_proj
+Quantizing ...
+time 2.91
+error 140793.4375
+32 self_attn.v_proj
+Quantizing ...
+time 2.64
+error 81749.609375
+32 self_attn.q_proj
+Quantizing ...
+time 2.64
+error 96446.84375
+32 self_attn.out_proj
+Quantizing ...
+time 2.64
+error 5936.7548828125
+32 fc1
+Quantizing ...
+time 2.78
+error 451824.625
+32 fc2
+Quantizing ...
+time 15.42
+error 22850.98828125
+33 self_attn.k_proj
+Quantizing ...
+time 2.91
+error 142834.5625
+33 self_attn.v_proj
+Quantizing ...
+time 2.67
+error 89012.546875
+33 self_attn.q_proj
+Quantizing ...
+time 2.56
+error 104181.96875
+33 self_attn.out_proj
+Quantizing ...
+time 2.63
+error 7398.93017578125
+33 fc1
+Quantizing ...
+time 2.80
+error 503970.75
+33 fc2
+Quantizing ...
+time 15.47
+error 27378.689453125
+34 self_attn.k_proj
+Quantizing ...
+time 2.97
+error 172066.15625
+34 self_attn.v_proj
+Quantizing ...
+time 2.64
+error 101188.0390625
+34 self_attn.q_proj
+Quantizing ...
+time 2.65
+error 108418.0
+34 self_attn.out_proj
+Quantizing ...
+time 2.65
+error 9963.5791015625
+34 fc1
+Quantizing ...
+time 2.82
+error 566055.375
+34 fc2
+Quantizing ...
+time 15.41
+error 32952.703125
+35 self_attn.k_proj
+Quantizing ...
+time 2.92
+error 146232.75
+35 self_attn.v_proj
+Quantizing ...
+time 2.63
+error 105806.203125
+35 self_attn.q_proj
+Quantizing ...
+time 2.64
+error 110479.4921875
+35 self_attn.out_proj
+Quantizing ...
+time 2.63
+error 7411.94384765625
+35 fc1
+Quantizing ...
+time 2.79
+error 631995.125
+35 fc2
+Quantizing ...
+time 15.59
+error 37346.078125
+36 self_attn.k_proj
+Quantizing ...
+time 2.89
+error 165064.875
+36 self_attn.v_proj
+Quantizing ...
+time 2.55
+error 118313.671875
+36 self_attn.q_proj
+Quantizing ...
+time 2.62
+error 116629.84375
+36 self_attn.out_proj
+Quantizing ...
+time 2.62
+error 9977.4638671875
+36 fc1
+Quantizing ...
+time 2.78
+error 688276.0
+36 fc2
+Quantizing ...
+time 15.49
+error 42320.6171875
+37 self_attn.k_proj
+Quantizing ...
+time 2.87
+error 163545.75
+37 self_attn.v_proj
+Quantizing ...
+time 2.63
+error 130956.5078125
+37 self_attn.q_proj
+Quantizing ...
+time 2.61
+error 125945.609375
+37 self_attn.out_proj
+Quantizing ...
+time 2.62
+error 8326.2470703125
+37 fc1
+Quantizing ...
+time 2.71
+error 748490.125
+37 fc2
+Quantizing ...
+time 15.49
+error 45891.72265625
+38 self_attn.k_proj
+Quantizing ...
+time 2.91
+error 166696.75
+38 self_attn.v_proj
+Quantizing ...
+time 2.63
+error 137339.671875
+38 self_attn.q_proj
+Quantizing ...
+time 2.64
+error 127433.28125
+38 self_attn.out_proj
+Quantizing ...
+time 2.66
+error 10281.37890625
+38 fc1
+Quantizing ...
+time 2.83
+error 788107.1875
+38 fc2
+Quantizing ...
+time 15.46
+error 51320.4453125
+39 self_attn.k_proj
+Quantizing ...
+time 2.90
+error 182119.0625
+39 self_attn.v_proj
+Quantizing ...
+time 2.64
+error 152649.125
+39 self_attn.q_proj
+Quantizing ...
+time 2.67
+error 133155.859375
+39 self_attn.out_proj
+Quantizing ...
+time 2.64
+error 11519.94921875
+39 fc1
+Quantizing ...
+time 2.74
+error 823377.0625
+39 fc2
+Quantizing ...
+time 15.49
+error 56594.9765625
+40 self_attn.k_proj
+Quantizing ...
+time 2.90
+error 175915.21875
+40 self_attn.v_proj
+Quantizing ...
+time 2.62
+error 157490.65625
+40 self_attn.q_proj
+Quantizing ...
+time 2.64
+error 132798.203125
+40 self_attn.out_proj
+Quantizing ...
+time 2.65
+error 10678.0439453125
+40 fc1
+Quantizing ...
+time 2.80
+error 842232.9375
+40 fc2
+Quantizing ...
+time 15.47
+error 60948.6875
+41 self_attn.k_proj
+Quantizing ...
+time 2.81
+error 181223.40625
+41 self_attn.v_proj
+Quantizing ...
+time 2.59
+error 152392.65625
+41 self_attn.q_proj
+Quantizing ...
+time 2.63
+error 132466.140625
+41 self_attn.out_proj
+Quantizing ...
+time 2.62
+error 10606.00390625
+41 fc1
+Quantizing ...
+time 2.79
+error 853670.625
+41 fc2
+Quantizing ...
+time 15.54
+error 65657.640625
+42 self_attn.k_proj
+Quantizing ...
+time 2.91
+error 170239.8125
+42 self_attn.v_proj
+Quantizing ...
+time 2.64
+error 157155.34375
+42 self_attn.q_proj
+Quantizing ...
+time 2.63
+error 136087.921875
+42 self_attn.out_proj
+Quantizing ...
+time 2.61
+error 7402.60546875
+42 fc1
+Quantizing ...
+time 2.78
+error 854949.125
+42 fc2
+Quantizing ...
+time 15.51
+error 68397.625
+43 self_attn.k_proj
+Quantizing ...
+time 2.99
+error 183411.390625
+43 self_attn.v_proj
+Quantizing ...
+time 2.72
+error 149896.84375
+43 self_attn.q_proj
+Quantizing ...
+time 2.65
+error 135562.28125
+43 self_attn.out_proj
+Quantizing ...
+time 2.67
+error 7156.1875
+43 fc1
+Quantizing ...
+time 2.72
+error 848047.75
+43 fc2
+Quantizing ...
+time 15.61
+error 69706.9765625
+44 self_attn.k_proj
+Quantizing ...
+time 2.89
+error 197332.5
+44 self_attn.v_proj
+Quantizing ...
+time 2.65
+error 152339.578125
+44 self_attn.q_proj
+Quantizing ...
+time 2.70
+error 134622.09375
+44 self_attn.out_proj
+Quantizing ...
+time 2.65
+error 7838.1259765625
+44 fc1
+Quantizing ...
+time 2.77
+error 832766.8125
+44 fc2
+Quantizing ...
+time 15.48
+error 72231.4609375
+45 self_attn.k_proj
+Quantizing ...
+time 2.87
+error 170689.78125
+45 self_attn.v_proj
+Quantizing ...
+time 2.64
+error 149956.171875
+45 self_attn.q_proj
+Quantizing ...
+time 2.64
+error 133601.875
+45 self_attn.out_proj
+Quantizing ...
+time 2.63
+error 5139.60107421875
+45 fc1
+Quantizing ...
+time 2.78
+error 796314.875
+45 fc2
+Quantizing ...
+time 15.48
+error 71354.375
+46 self_attn.k_proj
+Quantizing ...
+time 2.88
+error 170158.15625
+46 self_attn.v_proj
+Quantizing ...
+time 2.55
+error 133845.4375
+46 self_attn.q_proj
+Quantizing ...
+time 2.60
+error 128706.125
+46 self_attn.out_proj
+Quantizing ...
+time 2.61
+error 4393.767578125
+46 fc1
+Quantizing ...
+time 2.77
+error 740651.875
+46 fc2
+Quantizing ...
+time 15.48
+error 68002.953125
+47 self_attn.k_proj
+Quantizing ...
+time 2.91
+error 150856.6875
+47 self_attn.v_proj
+Quantizing ...
+time 2.68
+error 104603.578125
+47 self_attn.q_proj
+Quantizing ...
+time 2.64
+error 126077.71875
+47 self_attn.out_proj
+Quantizing ...
+time 2.64
+error 2810.608154296875
+47 fc1
+Quantizing ...
+time 2.75
+error 664300.875
+47 fc2
+Quantizing ...
+time 15.51
+error 47667.61328125
+3608.408061981201
+wikitext2
+Evaluating ...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+9.614920616149902
+ptb-new
+Evaluating ...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+14.261137962341309
+c4-new
+Evaluating ...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+11.563870429992676

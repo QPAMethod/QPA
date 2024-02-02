@@ -1,0 +1,58 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 31630557184 bytes
+Free Memory: 214529736704 bytes
+Memory Usage: 21.4%
+Selected Tasks: ['lambada_openai']
+OPT vocab size:  50265
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 33665318912 bytes
+Free Memory: 212170637312 bytes
+Memory Usage: 22.2%
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.2%
+Total Memory: 272808017920 bytes
+Used Memory: 55457153024 bytes
+Free Memory: 190245568512 bytes
+Memory Usage: 30.3%
+bootstrapping for stddev: perplexity
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 55519084544 bytes
+Free Memory: 190183702528 bytes
+Memory Usage: 30.3%
+{
+  "results": {
+    "lambada_openai": {
+      "ppl": 4.252292574716904,
+      "ppl_stderr": 0.09270817685904201,
+      "acc": 0.6770813118571706,
+      "acc_stderr": 0.006514469814384408
+    }
+  },
+  "versions": {
+    "lambada_openai": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-6.7b",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 173.4579939842224
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-6.7b batch_size: 8
+|     Task     |Version|Metric|  Value   |   |  Stderr  |
+|--------------|------:|------|---------:|---|---------:|
+|lambada_openai|      0|ppl   |4.25229257|±  |0.09270818|
+|              |       |acc   |0.67708131|±  |0.00651447|
+

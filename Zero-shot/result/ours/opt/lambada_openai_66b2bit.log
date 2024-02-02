@@ -1,0 +1,50 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.2%
+Total Memory: 272808148992 bytes
+Used Memory: 32119259136 bytes
+Free Memory: 213597356032 bytes
+Memory Usage: 21.7%
+Selected Tasks: ['lambada_openai']
+OPT vocab size:  50265
+CPU Usage: 0.8%
+Total Memory: 272808148992 bytes
+Used Memory: 34169028608 bytes
+Free Memory: 211219972096 bytes
+Memory Usage: 22.6%
+Loading /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-66b checkpoint /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/ours/opt/66b2bit.pth ....
+Done.
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+bootstrapping for stddev: perplexity
+{
+  "results": {
+    "lambada_openai": {
+      "ppl": 2.779297642953223,
+      "ppl_stderr": 0.053795512101700346,
+      "acc": 0.774888414515816,
+      "acc_stderr": 0.005818761813822414
+    }
+  },
+  "versions": {
+    "lambada_openai": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-66b/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/ours/opt/66b2bit.pth",
+    "batch_size": 4,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 855.6755411624908
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/ours/opt/66b2bit.pth batch_size: 4
+|     Task     |Version|Metric|  Value   |   |  Stderr  |
+|--------------|------:|------|---------:|---|---------:|
+|lambada_openai|      0|ppl   |2.77929764|±  |0.05379551|
+|              |       |acc   |0.77488841|±  |0.00581876|
+

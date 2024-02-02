@@ -1,0 +1,583 @@
+CUDA extension not installed.
+Starting ...
+Ready.
+0 self_attention.query_key_value
+Quantizing ...
+time 4.10
+error 1305690.75
+0 self_attention.dense
+Quantizing ...
+time 1.04
+error 10333.7470703125
+0 mlp.dense_h_to_4h
+Quantizing ...
+time 0.93
+error 982229.875
+0 mlp.dense_4h_to_h
+Quantizing ...
+time 3.90
+error 56113.8515625
+1 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 1916285.375
+1 self_attention.dense
+Quantizing ...
+time 0.89
+error 10207.390625
+1 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 880803.5
+1 mlp.dense_4h_to_h
+Quantizing ...
+time 3.83
+error 53873.0
+2 self_attention.query_key_value
+Quantizing ...
+time 1.73
+error 1808006.75
+2 self_attention.dense
+Quantizing ...
+time 0.89
+error 10317.283203125
+2 mlp.dense_h_to_4h
+Quantizing ...
+time 0.90
+error 924710.375
+2 mlp.dense_4h_to_h
+Quantizing ...
+time 3.86
+error 53667.56640625
+3 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 1712981.25
+3 self_attention.dense
+Quantizing ...
+time 0.89
+error 11841.4638671875
+3 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 941950.5
+3 mlp.dense_4h_to_h
+Quantizing ...
+time 3.89
+error 55093.82421875
+4 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 1665892.5
+4 self_attention.dense
+Quantizing ...
+time 0.90
+error 12890.9248046875
+4 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 879672.125
+4 mlp.dense_4h_to_h
+Quantizing ...
+time 3.85
+error 57274.5
+5 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 1802349.25
+5 self_attention.dense
+Quantizing ...
+time 0.90
+error 15804.73046875
+5 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 855037.6875
+5 mlp.dense_4h_to_h
+Quantizing ...
+time 3.82
+error 61475.93359375
+6 self_attention.query_key_value
+Quantizing ...
+time 1.74
+error 1975504.25
+6 self_attention.dense
+Quantizing ...
+time 0.89
+error 16870.140625
+6 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 1014851.875
+6 mlp.dense_4h_to_h
+Quantizing ...
+time 3.87
+error 66080.125
+7 self_attention.query_key_value
+Quantizing ...
+time 1.86
+error 2219213.25
+7 self_attention.dense
+Quantizing ...
+time 0.89
+error 19343.1015625
+7 mlp.dense_h_to_4h
+Quantizing ...
+time 0.86
+error 1078055.25
+7 mlp.dense_4h_to_h
+Quantizing ...
+time 3.78
+error 63391.0078125
+8 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 2418965.0
+8 self_attention.dense
+Quantizing ...
+time 0.86
+error 23145.568359375
+8 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 1474524.0
+8 mlp.dense_4h_to_h
+Quantizing ...
+time 3.73
+error 86069.109375
+9 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 2666542.5
+9 self_attention.dense
+Quantizing ...
+time 0.89
+error 29528.369140625
+9 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 1838285.375
+9 mlp.dense_4h_to_h
+Quantizing ...
+time 3.81
+error 113736.21875
+10 self_attention.query_key_value
+Quantizing ...
+time 1.72
+error 2707526.5
+10 self_attention.dense
+Quantizing ...
+time 0.89
+error 29355.041015625
+10 mlp.dense_h_to_4h
+Quantizing ...
+time 0.89
+error 2461878.75
+10 mlp.dense_4h_to_h
+Quantizing ...
+time 3.84
+error 141719.984375
+11 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 2796260.0
+11 self_attention.dense
+Quantizing ...
+time 0.90
+error 25498.353515625
+11 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 2673929.0
+11 mlp.dense_4h_to_h
+Quantizing ...
+time 3.86
+error 154912.578125
+12 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 3508719.0
+12 self_attention.dense
+Quantizing ...
+time 0.89
+error 26204.55859375
+12 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 2025268.5
+12 mlp.dense_4h_to_h
+Quantizing ...
+time 3.82
+error 127835.34375
+13 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 3274882.0
+13 self_attention.dense
+Quantizing ...
+time 0.89
+error 28345.359375
+13 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 1810828.0
+13 mlp.dense_4h_to_h
+Quantizing ...
+time 3.97
+error 102593.53125
+14 self_attention.query_key_value
+Quantizing ...
+time 1.76
+error 3242090.25
+14 self_attention.dense
+Quantizing ...
+time 0.89
+error 27934.2578125
+14 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 2301245.0
+14 mlp.dense_4h_to_h
+Quantizing ...
+time 3.95
+error 112204.015625
+15 self_attention.query_key_value
+Quantizing ...
+time 1.76
+error 3641797.5
+15 self_attention.dense
+Quantizing ...
+time 0.89
+error 31704.681640625
+15 mlp.dense_h_to_4h
+Quantizing ...
+time 0.90
+error 2595235.75
+15 mlp.dense_4h_to_h
+Quantizing ...
+time 3.80
+error 108328.6875
+16 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 3627228.5
+16 self_attention.dense
+Quantizing ...
+time 0.89
+error 24149.68359375
+16 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 2715463.5
+16 mlp.dense_4h_to_h
+Quantizing ...
+time 3.77
+error 108597.4296875
+17 self_attention.query_key_value
+Quantizing ...
+time 1.76
+error 3157684.5
+17 self_attention.dense
+Quantizing ...
+time 0.90
+error 23971.52734375
+17 mlp.dense_h_to_4h
+Quantizing ...
+time 0.85
+error 2587897.0
+17 mlp.dense_4h_to_h
+Quantizing ...
+time 3.81
+error 108444.390625
+18 self_attention.query_key_value
+Quantizing ...
+time 1.76
+error 3361118.0
+18 self_attention.dense
+Quantizing ...
+time 0.90
+error 27596.16796875
+18 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 2545644.0
+18 mlp.dense_4h_to_h
+Quantizing ...
+time 3.81
+error 114017.53125
+19 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 3257085.5
+19 self_attention.dense
+Quantizing ...
+time 0.89
+error 25201.6875
+19 mlp.dense_h_to_4h
+Quantizing ...
+time 0.92
+error 2518637.5
+19 mlp.dense_4h_to_h
+Quantizing ...
+time 3.85
+error 122428.609375
+20 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 3331598.25
+20 self_attention.dense
+Quantizing ...
+time 0.87
+error 30457.697265625
+20 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 2551205.25
+20 mlp.dense_4h_to_h
+Quantizing ...
+time 3.88
+error 158858.5
+21 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 3113789.5
+21 self_attention.dense
+Quantizing ...
+time 0.89
+error 33947.0859375
+21 mlp.dense_h_to_4h
+Quantizing ...
+time 0.85
+error 2588357.75
+21 mlp.dense_4h_to_h
+Quantizing ...
+time 3.79
+error 169635.0
+22 self_attention.query_key_value
+Quantizing ...
+time 1.76
+error 3236488.5
+22 self_attention.dense
+Quantizing ...
+time 0.90
+error 44967.9375
+22 mlp.dense_h_to_4h
+Quantizing ...
+time 0.86
+error 2676687.0
+22 mlp.dense_4h_to_h
+Quantizing ...
+time 3.81
+error 223782.546875
+23 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 3025903.5
+23 self_attention.dense
+Quantizing ...
+time 0.89
+error 47284.625
+23 mlp.dense_h_to_4h
+Quantizing ...
+time 0.90
+error 2718112.5
+23 mlp.dense_4h_to_h
+Quantizing ...
+time 3.84
+error 277324.8125
+24 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 2981343.0
+24 self_attention.dense
+Quantizing ...
+time 0.89
+error 61508.96875
+24 mlp.dense_h_to_4h
+Quantizing ...
+time 0.91
+error 2560422.75
+24 mlp.dense_4h_to_h
+Quantizing ...
+time 3.86
+error 254874.40625
+25 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 2634294.5
+25 self_attention.dense
+Quantizing ...
+time 0.89
+error 84731.1875
+25 mlp.dense_h_to_4h
+Quantizing ...
+time 0.86
+error 2435108.0
+25 mlp.dense_4h_to_h
+Quantizing ...
+time 3.85
+error 239876.375
+26 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 2482210.0
+26 self_attention.dense
+Quantizing ...
+time 0.90
+error 89039.84375
+26 mlp.dense_h_to_4h
+Quantizing ...
+time 0.85
+error 2484489.0
+26 mlp.dense_4h_to_h
+Quantizing ...
+time 3.85
+error 275746.96875
+27 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 2383261.25
+27 self_attention.dense
+Quantizing ...
+time 0.89
+error 93836.53125
+27 mlp.dense_h_to_4h
+Quantizing ...
+time 0.86
+error 2374707.0
+27 mlp.dense_4h_to_h
+Quantizing ...
+time 3.86
+error 377212.28125
+28 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 1745356.125
+28 self_attention.dense
+Quantizing ...
+time 0.89
+error 55692.3046875
+28 mlp.dense_h_to_4h
+Quantizing ...
+time 0.86
+error 2218238.25
+28 mlp.dense_4h_to_h
+Quantizing ...
+time 3.81
+error 426673.53125
+29 self_attention.query_key_value
+Quantizing ...
+time 1.77
+error 1410751.0
+29 self_attention.dense
+Quantizing ...
+time 0.89
+error 41950.0390625
+29 mlp.dense_h_to_4h
+Quantizing ...
+time 0.84
+error 2038063.0
+29 mlp.dense_4h_to_h
+Quantizing ...
+time 3.85
+error 360614.4375
+414.7646179199219
+wikitext2
+Evaluation...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+951.5940551757812
+ptb-new
+Evaluation...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+2121.900634765625
+c4-new
+Evaluation...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+391.1120910644531

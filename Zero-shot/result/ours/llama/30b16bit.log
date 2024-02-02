@@ -1,0 +1,68 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.2%
+Total Memory: 272808083456 bytes
+Used Memory: 32918470656 bytes
+Free Memory: 211001409536 bytes
+Memory Usage: 22.7%
+Selected Tasks: ['winogrande', 'arc_challenge']
+LLaMA vocab size:  32000
+CPU Usage: 0.8%
+Total Memory: 272808083456 bytes
+Used Memory: 34983903232 bytes
+Free Memory: 208611966976 bytes
+Memory Usage: 23.5%
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.0%
+Total Memory: 272808083456 bytes
+Used Memory: 118302703616 bytes
+Free Memory: 125154820096 bytes
+Memory Usage: 54.1%
+CPU Usage: 0.0%
+Total Memory: 272808083456 bytes
+Used Memory: 118304604160 bytes
+Free Memory: 125152919552 bytes
+Memory Usage: 54.1%
+CPU Usage: 0.0%
+Total Memory: 272808083456 bytes
+Used Memory: 118303948800 bytes
+Free Memory: 125153574912 bytes
+Memory Usage: 54.1%
+{
+  "results": {
+    "winogrande": {
+      "acc": 0.7261247040252565,
+      "acc_stderr": 0.012533292732620296
+    },
+    "arc_challenge": {
+      "acc": 0.46757679180887374,
+      "acc_stderr": 0.014580637569995423,
+      "acc_norm": 0.454778156996587,
+      "acc_norm_stderr": 0.014551507060836352
+    }
+  },
+  "versions": {
+    "winogrande": 0,
+    "arc_challenge": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-30b",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 355.2866187095642
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-30b batch_size: 8
+|    Task     |Version| Metric |  Value   |   |  Stderr  |
+|-------------|------:|--------|---------:|---|---------:|
+|winogrande   |      0|acc     |0.72612470|±  |0.01253329|
+|arc_challenge|      0|acc     |0.46757679|±  |0.01458064|
+|             |       |acc_norm|0.45477816|±  |0.01455151|
+

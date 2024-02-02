@@ -1,0 +1,60 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 31638683648 bytes
+Free Memory: 214536290304 bytes
+Memory Usage: 21.4%
+Selected Tasks: ['lambada_openai']
+OPT vocab size:  50265
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 33826013184 bytes
+Free Memory: 212024229888 bytes
+Memory Usage: 22.3%
+Loading /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-350m checkpoint /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/350m2bit.pth ....
+Done.
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 37113757696 bytes
+Free Memory: 208602529792 bytes
+Memory Usage: 23.5%
+bootstrapping for stddev: perplexity
+CPU Usage: 0.2%
+Total Memory: 272808017920 bytes
+Used Memory: 37154390016 bytes
+Free Memory: 208561831936 bytes
+Memory Usage: 23.5%
+{
+  "results": {
+    "lambada_openai": {
+      "ppl": 9237851.757966755,
+      "ppl_stderr": 856467.3435291818,
+      "acc": 0.0,
+      "acc_stderr": 0.0
+    }
+  },
+  "versions": {
+    "lambada_openai": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-350m/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/350m2bit.pth",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 78.04762578010559
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/350m2bit.pth batch_size: 8
+|     Task     |Version|Metric|     Value      |   |    Stderr     |
+|--------------|------:|------|---------------:|---|--------------:|
+|lambada_openai|      0|ppl   |9237851.75796675|±  |856467.34352918|
+|              |       |acc   |      0.00000000|±  |     0.00000000|
+

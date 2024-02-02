@@ -1,0 +1,70 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 31385059328 bytes
+Free Memory: 212780056576 bytes
+Memory Usage: 22.0%
+Selected Tasks: ['winogrande', 'arc_challenge']
+LLaMA vocab size:  32000
+CPU Usage: 0.2%
+Total Memory: 272808017920 bytes
+Used Memory: 34026553344 bytes
+Free Memory: 209851842560 bytes
+Memory Usage: 23.1%
+Loading /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-30b checkpoint /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/ours/llama/30b4bit.pth ....
+Done.
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 117403746304 bytes
+Free Memory: 126473535488 bytes
+Memory Usage: 53.6%
+CPU Usage: 0.2%
+Total Memory: 272808017920 bytes
+Used Memory: 117409906688 bytes
+Free Memory: 126467375104 bytes
+Memory Usage: 53.6%
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 117393391616 bytes
+Free Memory: 126483890176 bytes
+Memory Usage: 53.6%
+{
+  "results": {
+    "winogrande": {
+      "acc": 0.7245461720599842,
+      "acc_stderr": 0.01255569005570954
+    },
+    "arc_challenge": {
+      "acc": 0.4641638225255973,
+      "acc_stderr": 0.014573813664735718,
+      "acc_norm": 0.45733788395904434,
+      "acc_norm_stderr": 0.014558106543924072
+    }
+  },
+  "versions": {
+    "winogrande": 0,
+    "arc_challenge": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-30b/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/ours/llama/30b4bit.pth",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 399.95094656944275
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/ours/llama/30b4bit.pth batch_size: 8
+|    Task     |Version| Metric |  Value   |   |  Stderr  |
+|-------------|------:|--------|---------:|---|---------:|
+|winogrande   |      0|acc     |0.72454617|±  |0.01255569|
+|arc_challenge|      0|acc     |0.46416382|±  |0.01457381|
+|             |       |acc_norm|0.45733788|±  |0.01455811|
+

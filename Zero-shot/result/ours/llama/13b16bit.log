@@ -1,0 +1,68 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.1%
+Total Memory: 272808148992 bytes
+Used Memory: 31876317184 bytes
+Free Memory: 214806233088 bytes
+Memory Usage: 21.3%
+Selected Tasks: ['winogrande', 'arc_challenge']
+LLaMA vocab size:  32000
+CPU Usage: 0.0%
+Total Memory: 272808148992 bytes
+Used Memory: 33988673536 bytes
+Free Memory: 212368883712 bytes
+Memory Usage: 22.2%
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.0%
+Total Memory: 272808148992 bytes
+Used Memory: 74878877696 bytes
+Free Memory: 171344592896 bytes
+Memory Usage: 37.2%
+CPU Usage: 0.2%
+Total Memory: 272808148992 bytes
+Used Memory: 74887331840 bytes
+Free Memory: 171336138752 bytes
+Memory Usage: 37.2%
+CPU Usage: 0.3%
+Total Memory: 272808148992 bytes
+Used Memory: 74876059648 bytes
+Free Memory: 171347476480 bytes
+Memory Usage: 37.2%
+{
+  "results": {
+    "winogrande": {
+      "acc": 0.7000789265982637,
+      "acc_stderr": 0.012878347526636068
+    },
+    "arc_challenge": {
+      "acc": 0.4402730375426621,
+      "acc_stderr": 0.014506769524804241,
+      "acc_norm": 0.4462457337883959,
+      "acc_norm_stderr": 0.014526705548539982
+    }
+  },
+  "versions": {
+    "winogrande": 0,
+    "arc_challenge": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-13b",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 200.8740303516388
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-13b batch_size: 8
+|    Task     |Version| Metric |  Value   |   |  Stderr  |
+|-------------|------:|--------|---------:|---|---------:|
+|winogrande   |      0|acc     |0.70007893|±  |0.01287835|
+|arc_challenge|      0|acc     |0.44027304|±  |0.01450677|
+|             |       |acc_norm|0.44624573|±  |0.01452671|
+

@@ -1,0 +1,60 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.0%
+Total Memory: 272808083456 bytes
+Used Memory: 32499040256 bytes
+Free Memory: 213950660608 bytes
+Memory Usage: 21.6%
+Selected Tasks: ['lambada_openai']
+OPT vocab size:  50265
+CPU Usage: 0.0%
+Total Memory: 272808083456 bytes
+Used Memory: 34691219456 bytes
+Free Memory: 211430342656 bytes
+Memory Usage: 22.5%
+Loading /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-1.3b checkpoint /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/1_3b3bit.pth ....
+Done.
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.1%
+Total Memory: 272808083456 bytes
+Used Memory: 41773694976 bytes
+Free Memory: 204218630144 bytes
+Memory Usage: 25.1%
+bootstrapping for stddev: perplexity
+CPU Usage: 0.2%
+Total Memory: 272808083456 bytes
+Used Memory: 41822388224 bytes
+Free Memory: 204170067968 bytes
+Memory Usage: 25.2%
+{
+  "results": {
+    "lambada_openai": {
+      "ppl": 21.090535119438627,
+      "ppl_stderr": 0.6844397477643918,
+      "acc": 0.3782262759557539,
+      "acc_stderr": 0.006756224989789187
+    }
+  },
+  "versions": {
+    "lambada_openai": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-1.3b/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/1_3b3bit.pth",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 103.34507632255554
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/1_3b3bit.pth batch_size: 8
+|     Task     |Version|Metric|   Value   |   |  Stderr  |
+|--------------|------:|------|----------:|---|---------:|
+|lambada_openai|      0|ppl   |21.09053512|±  |0.68443975|
+|              |       |acc   | 0.37822628|±  |0.00675622|
+

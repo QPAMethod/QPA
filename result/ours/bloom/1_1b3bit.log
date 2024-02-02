@@ -1,0 +1,373 @@
+CUDA extension not installed.
+Starting ...
+Ready.
+layers[0].self_attention.query_key_value
+time 1.59
+========================================
+layers[0].self_attention.dense
+time 1.44
+========================================
+layers[0].mlp.dense_h_to_4h
+time 1.23
+========================================
+layers[0].mlp.dense_4h_to_h
+time 3.70
+========================================
+layers[1].self_attention.query_key_value
+time 1.09
+========================================
+layers[1].self_attention.dense
+time 1.15
+========================================
+layers[1].mlp.dense_h_to_4h
+time 1.24
+========================================
+layers[1].mlp.dense_4h_to_h
+time 3.70
+========================================
+layers[2].self_attention.query_key_value
+time 1.07
+========================================
+layers[2].self_attention.dense
+time 1.18
+========================================
+layers[2].mlp.dense_h_to_4h
+time 1.26
+========================================
+layers[2].mlp.dense_4h_to_h
+time 3.85
+========================================
+layers[3].self_attention.query_key_value
+time 1.13
+========================================
+layers[3].self_attention.dense
+time 1.10
+========================================
+layers[3].mlp.dense_h_to_4h
+time 1.18
+========================================
+layers[3].mlp.dense_4h_to_h
+time 3.78
+========================================
+layers[4].self_attention.query_key_value
+time 1.07
+========================================
+layers[4].self_attention.dense
+time 1.10
+========================================
+layers[4].mlp.dense_h_to_4h
+time 1.29
+========================================
+layers[4].mlp.dense_4h_to_h
+time 3.74
+========================================
+layers[5].self_attention.query_key_value
+time 1.07
+========================================
+layers[5].self_attention.dense
+time 1.14
+========================================
+layers[5].mlp.dense_h_to_4h
+time 1.24
+========================================
+layers[5].mlp.dense_4h_to_h
+time 3.74
+========================================
+layers[6].self_attention.query_key_value
+time 1.29
+========================================
+layers[6].self_attention.dense
+time 1.11
+========================================
+layers[6].mlp.dense_h_to_4h
+time 1.22
+========================================
+layers[6].mlp.dense_4h_to_h
+time 3.75
+========================================
+layers[7].self_attention.query_key_value
+time 1.07
+========================================
+layers[7].self_attention.dense
+time 1.12
+========================================
+layers[7].mlp.dense_h_to_4h
+time 1.24
+========================================
+layers[7].mlp.dense_4h_to_h
+time 3.72
+========================================
+layers[8].self_attention.query_key_value
+time 1.23
+========================================
+layers[8].self_attention.dense
+time 1.18
+========================================
+layers[8].mlp.dense_h_to_4h
+time 1.21
+========================================
+layers[8].mlp.dense_4h_to_h
+time 3.67
+========================================
+layers[9].self_attention.query_key_value
+time 1.05
+========================================
+layers[9].self_attention.dense
+time 1.10
+========================================
+layers[9].mlp.dense_h_to_4h
+time 1.19
+========================================
+layers[9].mlp.dense_4h_to_h
+time 3.79
+========================================
+layers[10].self_attention.query_key_value
+time 1.08
+========================================
+layers[10].self_attention.dense
+time 1.11
+========================================
+layers[10].mlp.dense_h_to_4h
+time 1.21
+========================================
+layers[10].mlp.dense_4h_to_h
+time 3.86
+========================================
+layers[11].self_attention.query_key_value
+time 1.05
+========================================
+layers[11].self_attention.dense
+time 1.10
+========================================
+layers[11].mlp.dense_h_to_4h
+time 1.22
+========================================
+layers[11].mlp.dense_4h_to_h
+time 3.71
+========================================
+layers[12].self_attention.query_key_value
+time 1.17
+========================================
+layers[12].self_attention.dense
+time 1.10
+========================================
+layers[12].mlp.dense_h_to_4h
+time 1.23
+========================================
+layers[12].mlp.dense_4h_to_h
+time 3.79
+========================================
+layers[13].self_attention.query_key_value
+time 1.13
+========================================
+layers[13].self_attention.dense
+time 1.13
+========================================
+layers[13].mlp.dense_h_to_4h
+time 1.21
+========================================
+layers[13].mlp.dense_4h_to_h
+time 3.89
+========================================
+layers[14].self_attention.query_key_value
+time 1.06
+========================================
+layers[14].self_attention.dense
+time 1.10
+========================================
+layers[14].mlp.dense_h_to_4h
+time 1.20
+========================================
+layers[14].mlp.dense_4h_to_h
+time 3.71
+========================================
+layers[15].self_attention.query_key_value
+time 1.07
+========================================
+layers[15].self_attention.dense
+time 1.10
+========================================
+layers[15].mlp.dense_h_to_4h
+time 1.21
+========================================
+layers[15].mlp.dense_4h_to_h
+time 3.73
+========================================
+layers[16].self_attention.query_key_value
+time 1.16
+========================================
+layers[16].self_attention.dense
+time 1.14
+========================================
+layers[16].mlp.dense_h_to_4h
+time 1.22
+========================================
+layers[16].mlp.dense_4h_to_h
+time 3.77
+========================================
+layers[17].self_attention.query_key_value
+time 1.09
+========================================
+layers[17].self_attention.dense
+time 1.10
+========================================
+layers[17].mlp.dense_h_to_4h
+time 1.25
+========================================
+layers[17].mlp.dense_4h_to_h
+time 3.75
+========================================
+layers[18].self_attention.query_key_value
+time 1.06
+========================================
+layers[18].self_attention.dense
+time 1.12
+========================================
+layers[18].mlp.dense_h_to_4h
+time 1.23
+========================================
+layers[18].mlp.dense_4h_to_h
+time 3.76
+========================================
+layers[19].self_attention.query_key_value
+time 1.09
+========================================
+layers[19].self_attention.dense
+time 1.11
+========================================
+layers[19].mlp.dense_h_to_4h
+time 1.20
+========================================
+layers[19].mlp.dense_4h_to_h
+time 3.77
+========================================
+layers[20].self_attention.query_key_value
+time 1.08
+========================================
+layers[20].self_attention.dense
+time 1.14
+========================================
+layers[20].mlp.dense_h_to_4h
+time 1.25
+========================================
+layers[20].mlp.dense_4h_to_h
+time 3.88
+========================================
+layers[21].self_attention.query_key_value
+time 1.05
+========================================
+layers[21].self_attention.dense
+time 1.11
+========================================
+layers[21].mlp.dense_h_to_4h
+time 1.21
+========================================
+layers[21].mlp.dense_4h_to_h
+time 3.80
+========================================
+layers[22].self_attention.query_key_value
+time 1.08
+========================================
+layers[22].self_attention.dense
+time 1.11
+========================================
+layers[22].mlp.dense_h_to_4h
+time 1.24
+========================================
+layers[22].mlp.dense_4h_to_h
+time 3.70
+========================================
+layers[23].self_attention.query_key_value
+time 1.10
+========================================
+layers[23].self_attention.dense
+time 1.09
+========================================
+layers[23].mlp.dense_h_to_4h
+time 1.21
+========================================
+layers[23].mlp.dense_4h_to_h
+time 3.86
+========================================
+243.34851956367493
+wikitext2
+Evaluation...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+19.342145919799805
+ptb-new
+Evaluation...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+64.33519744873047
+c4-new
+Evaluation...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+23.612125396728516

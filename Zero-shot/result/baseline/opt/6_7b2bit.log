@@ -1,0 +1,60 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 31703171072 bytes
+Free Memory: 214306258944 bytes
+Memory Usage: 21.4%
+Selected Tasks: ['lambada_openai']
+OPT vocab size:  50265
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 33795866624 bytes
+Free Memory: 211927498752 bytes
+Memory Usage: 22.3%
+Loading /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-6.7b checkpoint /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/6_7b2bit.pth ....
+Done.
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 55563255808 bytes
+Free Memory: 190151983104 bytes
+Memory Usage: 30.3%
+bootstrapping for stddev: perplexity
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 55651926016 bytes
+Free Memory: 190063312896 bytes
+Memory Usage: 30.3%
+{
+  "results": {
+    "lambada_openai": {
+      "ppl": 21505.473286647022,
+      "ppl_stderr": 1138.265159416366,
+      "acc": 0.007374345041723268,
+      "acc_stderr": 0.0011919733557300884
+    }
+  },
+  "versions": {
+    "lambada_openai": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-6.7b/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/6_7b2bit.pth",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 192.0740385055542
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/6_7b2bit.pth batch_size: 8
+|     Task     |Version|Metric|    Value     |   |   Stderr    |
+|--------------|------:|------|-------------:|---|------------:|
+|lambada_openai|      0|ppl   |21505.47328665|±  |1138.26515942|
+|              |       |acc   |    0.00737435|±  |   0.00119197|
+

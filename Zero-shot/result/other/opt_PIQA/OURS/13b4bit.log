@@ -1,0 +1,57 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 2
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+CPU Usage: 14.5%
+Total Memory: 272808148992 bytes
+Used Memory: 66639822848 bytes
+Free Memory: 171758583808 bytes
+Memory Usage: 37.0%
+Selected Tasks: ['piqa']
+OPT vocab size:  50265
+CPU Usage: 15.4%
+Total Memory: 272808148992 bytes
+Used Memory: 93098606592 bytes
+Free Memory: 145317625856 bytes
+Memory Usage: 46.7%
+Loading /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-13b checkpoint /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/ours/opt/13b4bit.pth ....
+Done.
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 10.3%
+Total Memory: 272808148992 bytes
+Used Memory: 96644956160 bytes
+Free Memory: 141683326976 bytes
+Memory Usage: 48.1%
+CPU Usage: 11.0%
+Total Memory: 272808148992 bytes
+Used Memory: 96626212864 bytes
+Free Memory: 141706395648 bytes
+Memory Usage: 48.1%
+{
+  "results": {
+    "piqa": {
+      "acc": 0.7573449401523396,
+      "acc_stderr": 0.010002002569708696,
+      "acc_norm": 0.7687704026115343,
+      "acc_norm_stderr": 0.009837063180625336
+    }
+  },
+  "versions": {
+    "piqa": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-13b/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/ours/opt/13b4bit.pth",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 195.97815132141113
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/ours/opt/13b4bit.pth batch_size: 8
+|Task|Version| Metric |  Value   |   |  Stderr  |
+|----|------:|--------|---------:|---|---------:|
+|piqa|      0|acc     |0.75734494|±  |0.01000200|
+|    |       |acc_norm|0.76877040|±  |0.00983706|
+

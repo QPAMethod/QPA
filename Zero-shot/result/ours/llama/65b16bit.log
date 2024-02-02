@@ -1,0 +1,68 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 34449063936 bytes
+Free Memory: 211647791104 bytes
+Memory Usage: 22.4%
+Selected Tasks: ['winogrande', 'arc_challenge']
+LLaMA vocab size:  32000
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 36649566208 bytes
+Free Memory: 209123278848 bytes
+Memory Usage: 23.3%
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 189401202688 bytes
+Free Memory: 56247189504 bytes
+Memory Usage: 79.4%
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 189399040000 bytes
+Free Memory: 56249352192 bytes
+Memory Usage: 79.4%
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 189395959808 bytes
+Free Memory: 56252432384 bytes
+Memory Usage: 79.4%
+{
+  "results": {
+    "winogrande": {
+      "acc": 0.7742699289660616,
+      "acc_stderr": 0.011749626260902543
+    },
+    "arc_challenge": {
+      "acc": 0.4709897610921502,
+      "acc_stderr": 0.014586776355294323,
+      "acc_norm": 0.46331058020477817,
+      "acc_norm_stderr": 0.01457200052775699
+    }
+  },
+  "versions": {
+    "winogrande": 0,
+    "arc_challenge": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-65b",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 672.9191565513611
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-65b batch_size: 8
+|    Task     |Version| Metric |  Value   |   |  Stderr  |
+|-------------|------:|--------|---------:|---|---------:|
+|winogrande   |      0|acc     |0.77426993|±  |0.01174963|
+|arc_challenge|      0|acc     |0.47098976|±  |0.01458678|
+|             |       |acc_norm|0.46331058|±  |0.01457200|
+

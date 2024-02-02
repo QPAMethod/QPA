@@ -1,0 +1,68 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.1%
+Total Memory: 272808017920 bytes
+Used Memory: 32591380480 bytes
+Free Memory: 212676050944 bytes
+Memory Usage: 22.0%
+Selected Tasks: ['arc_challenge', 'winogrande']
+LLaMA vocab size:  32000
+CPU Usage: 0.2%
+Total Memory: 272808017920 bytes
+Used Memory: 34711404544 bytes
+Free Memory: 210231361536 bytes
+Memory Usage: 22.9%
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 61979754496 bytes
+Free Memory: 182829973504 bytes
+Memory Usage: 33.0%
+CPU Usage: 0.2%
+Total Memory: 272808017920 bytes
+Used Memory: 61988470784 bytes
+Free Memory: 182821257216 bytes
+Memory Usage: 33.0%
+CPU Usage: 0.0%
+Total Memory: 272808017920 bytes
+Used Memory: 61981261824 bytes
+Free Memory: 182828531712 bytes
+Memory Usage: 33.0%
+{
+  "results": {
+    "arc_challenge": {
+      "acc": 0.3822525597269625,
+      "acc_stderr": 0.014200454049979293,
+      "acc_norm": 0.4138225255972696,
+      "acc_norm_stderr": 0.014392730009221009
+    },
+    "winogrande": {
+      "acc": 0.6692975532754538,
+      "acc_stderr": 0.013222435887002705
+    }
+  },
+  "versions": {
+    "arc_challenge": 0,
+    "winogrande": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-7b",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 130.28006744384766
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/llama-7b batch_size: 8
+|    Task     |Version| Metric |  Value   |   |  Stderr  |
+|-------------|------:|--------|---------:|---|---------:|
+|arc_challenge|      0|acc     |0.38225256|±  |0.01420045|
+|             |       |acc_norm|0.41382253|±  |0.01439273|
+|winogrande   |      0|acc     |0.66929755|±  |0.01322244|
+

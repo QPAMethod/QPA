@@ -1,0 +1,60 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.2%
+Total Memory: 272808148992 bytes
+Used Memory: 33837678592 bytes
+Free Memory: 212447592448 bytes
+Memory Usage: 22.1%
+Selected Tasks: ['lambada_openai']
+OPT vocab size:  50265
+CPU Usage: 0.2%
+Total Memory: 272808148992 bytes
+Used Memory: 35877093376 bytes
+Free Memory: 210083643392 bytes
+Memory Usage: 23.0%
+Loading /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-66b checkpoint /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/66b2bit.pth ....
+Done.
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.1%
+Total Memory: 272808148992 bytes
+Used Memory: 185167183872 bytes
+Free Memory: 60660711424 bytes
+Memory Usage: 77.8%
+bootstrapping for stddev: perplexity
+CPU Usage: 0.0%
+Total Memory: 272808148992 bytes
+Used Memory: 185210568704 bytes
+Free Memory: 60617195520 bytes
+Memory Usage: 77.8%
+{
+  "results": {
+    "lambada_openai": {
+      "ppl": 34093.97400998355,
+      "ppl_stderr": 1750.5702816947867,
+      "acc": 0.008538715311469047,
+      "acc_stderr": 0.0012818766004754796
+    }
+  },
+  "versions": {
+    "lambada_openai": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-66b/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/66b2bit.pth",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 813.4956142902374
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/66b2bit.pth batch_size: 8
+|     Task     |Version|Metric|    Value     |   |   Stderr    |
+|--------------|------:|------|-------------:|---|------------:|
+|lambada_openai|      0|ppl   |34093.97400998|±  |1750.57028169|
+|              |       |acc   |    0.00853872|±  |   0.00128188|
+

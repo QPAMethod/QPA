@@ -1,0 +1,60 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.6%
+Total Memory: 272808148992 bytes
+Used Memory: 34121908224 bytes
+Free Memory: 212172472320 bytes
+Memory Usage: 22.2%
+Selected Tasks: ['lambada_openai']
+OPT vocab size:  50265
+CPU Usage: 0.0%
+Total Memory: 272808148992 bytes
+Used Memory: 36119445504 bytes
+Free Memory: 209889394688 bytes
+Memory Usage: 23.1%
+Loading /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-13b checkpoint /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/13b2bit.pth ....
+Done.
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.1%
+Total Memory: 272808148992 bytes
+Used Memory: 72329854976 bytes
+Free Memory: 173667647488 bytes
+Memory Usage: 36.3%
+bootstrapping for stddev: perplexity
+CPU Usage: 0.0%
+Total Memory: 272808148992 bytes
+Used Memory: 72410267648 bytes
+Free Memory: 173587234816 bytes
+Memory Usage: 36.4%
+{
+  "results": {
+    "lambada_openai": {
+      "ppl": 2406.2772659782963,
+      "ppl_stderr": 121.85487532250782,
+      "acc": 0.04638074907820687,
+      "acc_stderr": 0.002930005643886293
+    }
+  },
+  "versions": {
+    "lambada_openai": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-13b/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/13b2bit.pth",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 257.4370183944702
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/13b2bit.pth batch_size: 8
+|     Task     |Version|Metric|    Value    |   |   Stderr   |
+|--------------|------:|------|------------:|---|-----------:|
+|lambada_openai|      0|ppl   |2406.27726598|±  |121.85487532|
+|              |       |acc   |   0.04638075|±  |  0.00293001|
+

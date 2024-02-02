@@ -1,0 +1,60 @@
+CUDA kernel extension is not installed.
+Number of available GPUs: 4
+GPU device 0: NVIDIA A100-PCIE-40GB
+GPU device 1: NVIDIA A100-PCIE-40GB
+GPU device 2: NVIDIA A100-PCIE-40GB
+GPU device 3: NVIDIA A100-PCIE-40GB
+CPU Usage: 0.0%
+Total Memory: 272808148992 bytes
+Used Memory: 32623099904 bytes
+Free Memory: 213803532288 bytes
+Memory Usage: 21.6%
+Selected Tasks: ['lambada_openai']
+OPT vocab size:  50265
+CPU Usage: 0.1%
+Total Memory: 272808148992 bytes
+Used Memory: 34676211712 bytes
+Free Memory: 211425755136 bytes
+Memory Usage: 22.5%
+Loading /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-125m checkpoint /home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/125m3bit.pth ....
+Done.
+get_task_dict
+Running loglikelihood requests
+Evaluating ...
+CPU Usage: 0.1%
+Total Memory: 272808148992 bytes
+Used Memory: 37063819264 bytes
+Free Memory: 208905240576 bytes
+Memory Usage: 23.4%
+bootstrapping for stddev: perplexity
+CPU Usage: 0.0%
+Total Memory: 272808148992 bytes
+Used Memory: 37157011456 bytes
+Free Memory: 208812048384 bytes
+Memory Usage: 23.5%
+{
+  "results": {
+    "lambada_openai": {
+      "ppl": 210.57840146537126,
+      "ppl_stderr": 9.260360859486326,
+      "acc": 0.1620415292062876,
+      "acc_stderr": 0.005133770937713452
+    }
+  },
+  "versions": {
+    "lambada_openai": 0
+  },
+  "config": {
+    "model": "/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/temp_model/opt-125m/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/125m3bit.pth",
+    "batch_size": 8,
+    "no_cache": true,
+    "bootstrap_iters": 100000
+  }
+}
+total time : 59.582561016082764
+/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/model_output/baseline/opt/125m3bit.pth batch_size: 8
+|     Task     |Version|Metric|   Value    |   |  Stderr  |
+|--------------|------:|------|-----------:|---|---------:|
+|lambada_openai|      0|ppl   |210.57840147|±  |9.26036086|
+|              |       |acc   |  0.16204153|±  |0.00513377|
+
