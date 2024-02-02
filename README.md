@@ -4,8 +4,8 @@
 
 We have added two new parameters based on GPTQ (https://github.com/IST-DASLab/gptq):
 
-1. --sparsity: Specifies the percentage of parameters to be retained after pruning. The default value is set to 1, indicating no pruning.
-2. --is_layered：Determines whether to merge sparse and quantized matrices into a single matrix.
+1. --sparsity: Specifies the percentage of parameters to be retained after pruning. The default value is set to 1, indicating sparsity=99%.
+2. --is_layered：Determines whether to merge sparse matrice and quantization matrice into a single matrix.
 
 ## Environment
 

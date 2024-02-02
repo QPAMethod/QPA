@@ -36,13 +36,13 @@ class Winogrande(Task):
 
     answer_to_num = {"1": 0, "2": 1}
 
-    def download(self, data_dir=None, cache_dir=None, download_mode=None):
-        import datasets
-        path="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/winogrande"
-        path_cache="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/winogrande"
-        self.dataset=datasets.load_dataset('/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/winogrande/winogrande.py',
-                                   cache_dir=path_cache,
-                                   name="winogrande_xl")
+    # def download(self, data_dir=None, cache_dir=None, download_mode=None):
+    #     import datasets
+    #     path="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/winogrande"
+    #     path_cache="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/winogrande"
+    #     self.dataset=datasets.load_dataset('/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/winogrande/winogrande.py',
+    #                                cache_dir=path_cache,
+    #                                name="winogrande_xl")
 
     def has_training_docs(self):
         return True

@@ -99,14 +99,14 @@ class LambadaOpenAI(LambadaBase):
     DATASET_PATH = "EleutherAI/lambada_openai"
 
 
-    def download(self, data_dir=None, cache_dir=None, download_mode=None):
-        import datasets
-        path="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/lambada_openai"
-        path_cache="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/lambada_openai"
-        self.dataset=datasets.load_dataset('/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/lambada_openai/lambada_openai.py',
-               data_dir=path,
-               cache_dir=path_cache,
-               name=None)
+    # def download(self, data_dir=None, cache_dir=None, download_mode=None):
+    #     import datasets
+    #     path="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/lambada_openai"
+    #     path_cache="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/lambada_openai"
+    #     self.dataset=datasets.load_dataset('/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/lambada_openai/lambada_openai.py',
+    #            data_dir=path,
+    #            cache_dir=path_cache,
+    #            name=None)
 
     
     def has_training_docs(self):

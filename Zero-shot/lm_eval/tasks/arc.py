@@ -31,14 +31,14 @@ class ARCEasy(MultipleChoiceTask):
     DATASET_PATH = "ai2_arc"
     DATASET_NAME = "ARC-Easy"
 
-    def download(self, data_dir=None, cache_dir=None, download_mode=None):
-        import datasets
-        self.dataset = datasets.load_dataset(
-        "parquet", 
-         data_files={'train': '/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-easy/train-00000-of-00001.parquet',
-                    'validation':'/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-easy/validation-00000-of-00001.parquet',
-                    'test': '/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-easy/test-00000-of-00001.parquet'}
-         )
+    # def download(self, data_dir=None, cache_dir=None, download_mode=None):
+    #     import datasets
+    #     self.dataset = datasets.load_dataset(
+    #     "parquet", 
+    #      data_files={'train': '/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-easy/train-00000-of-00001.parquet',
+    #                 'validation':'/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-easy/validation-00000-of-00001.parquet',
+    #                 'test': '/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-easy/test-00000-of-00001.parquet'}
+    #      )
         
     def has_training_docs(self):
         return True
@@ -86,11 +86,11 @@ class ARCEasy(MultipleChoiceTask):
 class ARCChallenge(ARCEasy):
     DATASET_PATH = "ai2_arc"
     DATASET_NAME = "ARC-Challenge"
-    def download(self, data_dir=None, cache_dir=None, download_mode=None):
-        import datasets
-        self.dataset = datasets.load_dataset(
-        "parquet", 
-         data_files={'train': '/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-challenge/train-00000-of-00001.parquet',
-                    'validation':'/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-challenge/validation-00000-of-00001.parquet',
-                    'test': '/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-challenge/test-00000-of-00001.parquet'}
-         )
+    # def download(self, data_dir=None, cache_dir=None, download_mode=None):
+    #     import datasets
+    #     self.dataset = datasets.load_dataset(
+    #     "parquet", 
+    #      data_files={'train': '/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-challenge/train-00000-of-00001.parquet',
+    #                 'validation':'/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-challenge/validation-00000-of-00001.parquet',
+    #                 'test': '/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/ARC-challenge/test-00000-of-00001.parquet'}
+    #      )

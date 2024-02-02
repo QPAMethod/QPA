@@ -31,14 +31,14 @@ class PiQA(MultipleChoiceTask):
     VERSION = 0
     DATASET_PATH = "piqa"
     DATASET_NAME = None
-    def download(self, data_dir=None, cache_dir=None, download_mode=None):
-        import datasets
-        path="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/PIQA"
-        path_cache="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/PIQA"
-        self.dataset=datasets.load_dataset('/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/PIQA/piqa.py',
-                                   data_dir=path,
-                                   cache_dir=path_cache,
-                                   name=None)
+    # def download(self, data_dir=None, cache_dir=None, download_mode=None):
+    #     import datasets
+    #     path="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/PIQA"
+    #     path_cache="/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/PIQA"
+    #     self.dataset=datasets.load_dataset('/home/share/dallgdaxrjxylhlsktzu/home/gaohaotian/myidea_PQC/owq/data/PIQA/piqa.py',
+    #                                data_dir=path,
+    #                                cache_dir=path_cache,
+    #                                name=None)
 
 
 
