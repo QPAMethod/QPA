@@ -68,10 +68,10 @@ def get_ptb(nsamples, seed, seqlen, model):
 def get_c4(nsamples, seed, seqlen, model):
     from datasets import load_dataset
     traindata = load_dataset(
-        'allenai/c4', 'allenai--c4', data_files={'train': 'en/c4-train.00000-of-01024.json.gz'}, split='train'
+        'allenai/c4', data_files={'train': 'en/c4-train.00000-of-01024.json.gz'}, split='train'
     )
     valdata = load_dataset(
-        'allenai/c4', 'allenai--c4', data_files={'validation': 'en/c4-validation.00000-of-00008.json.gz'}, split='validation'
+        'allenai/c4', data_files={'validation': 'en/c4-validation.00000-of-00008.json.gz'}, split='validation'
     )
     # from datasets import load_from_disk
     # local_directory_traindata='/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/database/c4/train'
@@ -152,10 +152,10 @@ def get_c4_new(nsamples, seed, seqlen, model):
     from datasets import load_dataset
     from datasets import load_from_disk
     traindata = load_dataset(
-        'allenai/c4', 'allenai--c4', data_files={'train': 'en/c4-train.00000-of-01024.json.gz'}, split='train'
+        'allenai/c4',  data_files={'train': 'en/c4-train.00000-of-01024.json.gz'}, split='train'
     )
     valdata = load_dataset(
-        'allenai/c4', 'allenai--c4', data_files={'validation': 'en/c4-validation.00000-of-00008.json.gz'}, split='validation'
+        'allenai/c4', data_files={'validation': 'en/c4-validation.00000-of-00008.json.gz'}, split='validation'
     )
     # train='/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/database/c4_new/train'
     # test='/home/dallgdaxrjxylhlsktzu/dlcs-share33/gaohaotian/database/c4_new/test'

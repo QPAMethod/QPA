@@ -181,7 +181,7 @@ class GPTQ:
             Hinv1 = Hinv[i1:i2, i1:i2]
             
             mask1 = self.mask1[:, i1:i2].to(device=self.dev,dtype=torch.long)
-            print(sum(sum(mask1)))
+            # print(sum(sum(mask1)))
             for i in range(count):
                 w = W1[:, i]
                 d = Hinv1[i, i]
